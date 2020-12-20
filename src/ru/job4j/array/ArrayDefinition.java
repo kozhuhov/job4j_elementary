@@ -7,9 +7,19 @@ public class ArrayDefinition {
         String[] surnames = new String[100500];
         float[] prices = new float[40];
 
+        String[] names = new String[4];
+        names[0] = "first";
+        names[1] = "second";
+        names[2] = "third";
+        names[2] = "four";
+
         System.out.println("Размер ages равен:" + ages.length);
         System.out.println("Размер surnames равен:" + surnames.length);
         System.out.println("Размер prices равен:" + prices.length);
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
 
     }
 
