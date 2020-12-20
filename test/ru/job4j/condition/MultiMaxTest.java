@@ -16,6 +16,4 @@ public class MultiMaxTest {
         int result = MultiMax.max(3, 10, 10);
         assertThat(result, is(10));
     }
-
-
 }
