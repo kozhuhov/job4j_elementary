@@ -66,4 +66,17 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
 
     }
+
+    @Test
+    public void when006to319Then316() {
+
+        Point first = new Point(0, 0, 6);
+        Point second = new Point(3, 1, 9);
+
+        double expected = 4.35;
+
+        double out = first.distance3d(second);
+        Assert.assertEquals(expected, out, 0.01);
+
+    }
 }
