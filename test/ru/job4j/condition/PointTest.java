@@ -79,4 +79,17 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
 
     }
+
+    @Test
+    public void when0054Then640() {
+
+        Point first = new Point(0, 0);
+        Point second = new Point(5, 4);
+
+        double expected = 6.40;
+
+        double out = first.distance(second);
+        Assert.assertEquals(expected, out, 0.01);
+
+    }
 }
